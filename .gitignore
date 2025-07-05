@@ -1,0 +1,18 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+crash.log
+terraform.tfvars
+
+# AWS keys or credentials
+*.pem
+
+# IDE and OS junk
+*.log
+.DS_Store
+*.swp
+
+# Python (if needed in future)
+__pycache__/
+*.pyc
